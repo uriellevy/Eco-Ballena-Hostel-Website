@@ -1,0 +1,93 @@
+@media (max-width: 1048px) {
+  label.logo {
+    font-size: 3.2rem;
+    padding-left: 6rem;
+  }
+
+  nav ul {
+    margin-right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.7rem;
+  }
+
+  /* stay */
+  .stay-container {
+    padding: 2rem 1rem 6rem;
+  }
+}
+
+@media (max-width: 909px) {
+  nav #icon {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f36407e;
+    top: 8rem;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav li {
+    display: block;
+    margin: 5rem 0;
+    line-height: 3rem;
+  }
+
+  nav a {
+    font-size: 2rem;
+  }
+
+  a.active,
+  a:hover {
+    border: none;
+    color: var(--secondary-color);
+  }
+
+  nav ul.show {
+    left: 0;
+  }
+
+  section h1 {
+    font-size: 2rem;
+  }
+
+  section .cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 678px) {
+  /* what */
+  .section-what .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* contact */
+  .contact {
+    display: block;
+    /* flex-direction: column; */
+  }
+
+  .contact-form {
+    /* flex: 2; */
+  }
+
+  .map {
+    height: 30rem;
+    /* overflow-y: auto; */
+    /* flex: 1; */
+  }
+
+  /* stay */
+  .stay-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0 6rem;
+  }
+}
