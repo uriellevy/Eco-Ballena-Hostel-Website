@@ -651,7 +651,7 @@ blockquote::before {
   width: 100%;
   background: #223c55;
   color: #fff;
-  padding: 1rem;
+  padding: 0.7rem 0;
   border: 1px solid #fff;
   border-radius: 5px;
   font-size: 16px;
