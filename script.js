@@ -22,6 +22,12 @@ icon.addEventListener("click", function () {
   navShow.classList.toggle("show");
 });
 
+/////sticky navbar
+const nav = document.querySelector("nav");
+window.addEventListener("scroll", function () {
+  nav.classList.toggle("sticky", window.scrollY > 400);
+});
+
 //////animation
 
 window.addEventListener("scroll", reveal);
@@ -41,12 +47,6 @@ function reveal() {
     }
   });
 }
-
-/////sticky navbar
-const nav = document.querySelector("nav");
-window.addEventListener("scroll", function () {
-  nav.classList.toggle("sticky", window.scrollY > 400);
-});
 
 ///implement google maps
 
