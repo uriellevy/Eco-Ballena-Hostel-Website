@@ -9,6 +9,7 @@ links.forEach((link) => {
     removeClass();
 
     link.classList.add("active");
+    navShow.classList.remove("show");
   });
 });
 

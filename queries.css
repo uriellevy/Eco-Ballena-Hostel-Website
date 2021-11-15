@@ -72,17 +72,11 @@
   /* contact */
   .contact {
     display: block;
-    /* flex-direction: column; */
-  }
-
-  .contact-form {
-    /* flex: 2; */
   }
 
   .map {
     height: 30rem;
-    /* overflow-y: auto; */
-    /* flex: 1; */
+    margin-top: 50px;
   }
 
   /* stay */
