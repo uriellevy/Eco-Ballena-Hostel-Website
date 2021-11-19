@@ -87,6 +87,14 @@
 }
 
 @media (max-width: 500px) {
+  .header-content {
+    left: 5%;
+  }
+
+  .header-content h1 {
+    font-size: 3rem;
+  }
+
   /* contact */
 
   .form-group {
