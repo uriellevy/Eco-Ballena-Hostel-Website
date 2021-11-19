@@ -583,6 +583,14 @@ blockquote::before {
   padding-top: 8rem;
 }
 
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+}
 .contact-form,
 .map {
   flex: 1;
@@ -600,12 +608,6 @@ blockquote::before {
   height: 90vh;
   width: 100%;
   overflow: hidden;
-}
-
-.container {
-  /* background-color: rgba(0, 0, 0, 0.4); */
-  padding: 2rem 4rem;
-  border-radius: 5px;
 }
 
 .container h2 {
@@ -652,6 +654,7 @@ blockquote::before {
   background: #223c55;
   color: #fff;
   padding: 0.7rem 0;
+  margin-top: 1rem;
   border: 1px solid #fff;
   border-radius: 5px;
   font-size: 16px;
