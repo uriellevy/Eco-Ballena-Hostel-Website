@@ -584,7 +584,7 @@ blockquote::before {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   max-width: 1500px;
   margin: auto;
   overflow: hidden;
